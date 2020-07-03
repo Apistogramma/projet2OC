@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: row-reverse; 
+    padding:0 25% 0 25% ;  
+}
+.privé
+{
+    width: 30%;
+    border-top: solid black 0.3mm;
+    border-left: solid black 0.3mm;
+    border-bottom: solid black 0.3mm ;
+}
+.photo
+{
+    margin: 0cm;
+    padding: 0cm;
+}
+#ident
+{
+    border-radius: 50%;
+    margin:10% 10% 10% 10%;
+    width: 80%;
+}
+.professionnel
+{
+    width: 70% ;
+    padding: 5% 5% 10% 5%;
+    border-top: solid black 0.3mm;
+    border-right: solid black 0.3mm;
+    border-bottom: solid black 0.3mm
+
+}
+h1
+{
+    font-size: 10mm;
+    margin-bottom: 0em;
+}
+.prenom
+{
+    color:#2962FF ;
+}
+.fonction
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin:0 ;
+}
+.entête
+{
+    padding-bottom: 50px;
+}
+.agent
+{
+    text-decoration: underline #2962FF;
+}
+.professionnel i
+{
+    color: #2962FF;
+}
+.professionnel h2
+{
+    border-bottom: solid #2962FF ;
+   
+}
+h2
+{
+    word-wrap: break-word;
+}
+
+.date1
+{
+    list-style:url(photo/dot-circle-regular.svg);
+    list-style-type:#2962FF;
+}
+.maincorps
+{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.divcorps
+{
+    width: 70%;
+}
+.date
+{
+    font-weight: bold;
+    padding-left: 0em;
+    width: 30%;
+}
+
+.recommandation
+{
+    display: flex;
+
+}
+.recommandation div
+{ 
+    width: 50%;
+
+}
+.privé
+{ 
+    background-color: #2962FF;
+    display: flex;
+    flex-direction: column;  
+}
+.privé h2
+{
+    text-align: center;
+    background-color: black;
+    color:#2962FF ;
+}
+.adresse
+{
+    text-align: left;
+    word-wrap: break-word;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.monmot
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+.moi 
+{
+    flex-grow: 1;
+}
+.loisirs
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-stretch: extra-expanded;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    min-height: 2cm;
+   
+}
+
+
+
+
