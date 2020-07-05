@@ -1,4 +1,5 @@
-*{
+*
+{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -131,6 +132,7 @@ h1
     text-align: center;
     background-color: black;
     color:#2962FF ;
+    word-wrap: break-word;
 }
 .adresse
 {
@@ -154,13 +156,12 @@ h1
 {   
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    font-stretch: extra-expanded;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
-    min-height: 2cm;
     font-size:200%;
    
 }
@@ -172,7 +173,85 @@ ul
 {
     color: black;
 }
-
-
-
-
+@media all and (max-device-width: 480px)
+{
+    body 
+    {display: flex;
+    flex-direction: column;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    .fonction
+    {font-size: 2vmax;}
+    h1 
+    {
+        font-size: 2vmax;
+    }
+    h2 
+    {
+        font-size: 2vmax;
+    }
+    .professionnel 
+    {
+        font-size: 2vmax;
+        border: none;
+        width:100%;
+    }
+    .maincorps1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .maincorps
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .recommandation
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .privé
+    {
+        font-size: 2vmax;
+        border: none;
+        width: 100%;
+    }
+    body 
+    {
+        margin: 0cm;
+        padding: 0cm;
+    }
+    .date
+    {
+        width: 100%;
+    }
+    .date1
+    {
+        width: 100%;
+    }
+    .divcorps
+    {
+        width: 100%;
+        text-align:left;
+    }
+    .monmot
+    {
+        text-align:left;
+    }
+}
+@media all and (max-width: 1210px)
+{
+    .maincorps1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .maincorps
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
