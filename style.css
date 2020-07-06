@@ -7,11 +7,12 @@ body
 {
     display: flex;
     flex-direction: row-reverse; 
-    padding:0 25% 0 25% ;  
+    margin: auto; 
+    max-width: 900px;
 }
 .privé
 {
-    width: 30%;
+    width: 32%;
     border-top: solid black 0.3mm;
     border-left: solid black 0.3mm;
     border-bottom: solid black 0.3mm ;
@@ -29,7 +30,7 @@ body
 }
 .professionnel
 {
-    width: 70% ;
+    width: 68% ;
     padding: 5% 5% 10% 5%;
     border-top: solid black 0.3mm;
     border-right: solid black 0.3mm;
@@ -173,11 +174,20 @@ ul
 {
     color: black;
 }
+.run
+{
+box-sizing:content-box;
+h
+border: solid black;
+border-radius: 50%;
+}
 @media all and (max-device-width: 480px)
 {
     body 
     {display: flex;
     flex-direction: column;
+    width: 100vw;
+    margin: 0;
     }
 }
 @media all and (max-width: 1024px)
