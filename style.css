@@ -3,14 +3,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body
+main
 {
     display: flex;
     flex-direction: row-reverse; 
     margin: auto; 
     max-width: 1080px;
 }
-.privé
+.prive
 {
     width: 32%;
     border-top: solid black 0.3mm;
@@ -52,7 +52,7 @@ h1
     font-weight: bold;
     margin:0 ;
 }
-.entête
+.entete
 {
     padding-bottom: 50px;
 }
@@ -126,13 +126,13 @@ h1
     width: 50%;
 
 }
-.privé
+.prive
 { 
     background-color: #2962FF;
     display: flex;
     flex-direction: column;  
 }
-.privé h2
+.prive h2
 {
     text-align: center;
     background-color: black;
@@ -161,21 +161,24 @@ h1
 {   
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
-    font-size:200%;
+    font-size:150%;
 }
-.symb
+.symb1
     {
-        background-color: #2962FF;
         border-radius: 50%;
         border: 0.5mm solid black;
-        padding:10px;
+        padding: 4% 6% 4% 6%;
     }
+.symb2
+    {
+        border-radius: 50%;
+        border: 0.5mm solid black;
+        padding: 4% 
+    }   
 ul
 {
     color: #2962FF;
@@ -184,7 +187,11 @@ ul
 {
     color: black;
 }
-@media all and (max-device-width: 480px)
+.noir1
+{
+    color: black;
+}
+@media all and (max-width: 480px)
 {
     body 
     {display: flex;
@@ -192,6 +199,18 @@ ul
     width: 100vw;
     margin: 0;
     }
+    .symb1
+    {
+        border-radius: 50%;
+        border: 0.3mm solid black;
+        padding: 2% 3% 2% 3%;
+    }
+.symb2
+    {
+        border-radius: 50%;
+        border: 0.3mm solid black;
+        padding: 2% 
+    }   
     
 }
 @media all and (max-width: 1024px)
@@ -227,7 +246,7 @@ ul
         display: flex;
         flex-direction: column;
     }
-    .privé
+    .prive
     {
         font-size: 2vmax;
         border: none;
