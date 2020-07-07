@@ -8,7 +8,7 @@ body
     display: flex;
     flex-direction: row-reverse; 
     margin: auto; 
-    max-width: 900px;
+    max-width: 1080px;
 }
 .privé
 {
@@ -93,6 +93,10 @@ h1
 {
     width: 70%;
 }
+.divcorps1
+{
+    width:70%;
+}
 .date
 {
     font-weight: bold;
@@ -103,7 +107,7 @@ h1
 {
     font-weight: bold;
     padding-left: 0em;
-    width: 26%;;
+    width: 28%;;
 }
 .premier 
 {
@@ -164,8 +168,14 @@ h1
     padding-right: 10%;
     padding-bottom: 5%;
     font-size:200%;
-   
 }
+.symb
+    {
+        background-color: #2962FF;
+        border-radius: 50%;
+        border: 0.5mm solid black;
+        padding:10px;
+    }
 ul
 {
     color: #2962FF;
@@ -173,13 +183,6 @@ ul
 .noir
 {
     color: black;
-}
-.run
-{
-box-sizing:content-box;
-h
-border: solid black;
-border-radius: 50%;
 }
 @media all and (max-device-width: 480px)
 {
@@ -189,6 +192,7 @@ border-radius: 50%;
     width: 100vw;
     margin: 0;
     }
+    
 }
 @media all and (max-width: 1024px)
 {
@@ -250,6 +254,15 @@ border-radius: 50%;
     .monmot
     {
         text-align:left;
+    }
+    .maincorps
+    {
+        margin-left: 0;
+        list-style: inside;
+    }
+    .noir1
+    {
+        padding: 5%;
     }
 }
 @media all and (max-width: 1210px)
