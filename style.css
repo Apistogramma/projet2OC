@@ -115,8 +115,9 @@ h1
 }
 .premier :last-child
 {
-    padding: 1.4em;
+    padding: 1.3em;
 }
+
 .recommandation
 {
     display: flex;
