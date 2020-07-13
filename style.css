@@ -21,12 +21,15 @@ main
 {
     margin: 0cm;
     padding: 0cm;
+    display: flex;
+    justify-content: center;
 }
 #ident
 {
     border-radius: 50%;
-    margin:10% 10% 10% 10%;
+    margin-top:10%;
     width: 80%;
+    max-width: 320px;
 }
 .professionnel
 {
@@ -75,19 +78,19 @@ h1
 {
     color: #2962FF;
 }
-.maincorps
+.maincorps, .maincorps1
 {
-    margin-left: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.maincorps
+{
+    margin-left: 1em;
+}
 .maincorps1
 {
     margin-left:0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .divcorps
 {
@@ -163,22 +166,22 @@ h1
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
-    font-size:150%;
+    font-size: 1.5em;
 }
 .symb1
     {
         border-radius: 50%;
         border: 0.5mm solid black;
-        padding: 4% 6% 4% 6%;
+        padding: 20px 24px 16px 24px;
     }
 .symb2
     {
         border-radius: 50%;
         border: 0.5mm solid black;
-        padding: 4% 
+        padding: 20px 20px 20px 20px;
     }   
 ul
 {
@@ -200,18 +203,7 @@ ul
     width: 100vw;
     margin: 0;
     }
-    .symb1
-    {
-        border-radius: 50%;
-        border: 0.3mm solid black;
-        padding: 5% 6% 2% 5%;
-    }
-.symb2
-    {
-        border-radius: 50%;
-        border: 0.3mm solid black;
-        padding: 4% 
-    }   
+
     
 }
 @media all and (max-width: 1024px)
@@ -288,17 +280,9 @@ ul
     {
         padding: 5%;
     }
-}
-@media all and (max-width: 1210px)
-{
-    .maincorps1
+    .loisirs
     {
-        display: flex;
-        flex-direction: column;
-    }
-    .maincorps
-    {
-        display: flex;
-        flex-direction: column;
+        justify-content: space-around;
     }
 }
+
