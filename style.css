@@ -191,17 +191,6 @@ ul
 {
     color: black;
 }
-
-@media all and (max-width: 480px)
-{
-    body   
-    {
-        width: 100vw;
-    
-    }
-
-    
-}
 @media all and (max-width: 1024px)
 
 {
@@ -250,11 +239,7 @@ ul
         margin: 0cm;
         padding: 0cm;
     }
-    .date
-    {
-        width: 100%;
-    }
-    .date1
+    .date, .date1
     {
         width: 100%;
     }
