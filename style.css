@@ -27,6 +27,9 @@ main
 #ident
 {
     border-radius: 50%;
+    border-color: 	#4169E1;
+    border-style: solid;
+    border-width: 5px;
     margin-top:10%;
     max-width: 320px;
 }
@@ -91,24 +94,21 @@ h1
 {
     margin-left:0;
 }
-.divcorps
+.divcorps, .divcorps1
 {
     width: 70%;
 }
-.divcorps1
+.date, .date1
 {
-    width:70%;
+    font-weight: bold;
+    padding-left: 0em;    
 }
 .date
 {
-    font-weight: bold;
-    padding-left: 0em;
     width: 30%;;
 }
 .date1
 {
-    font-weight: bold;
-    padding-left: 0em;
     width: 28%;;
 }
 .premier 
@@ -170,30 +170,28 @@ h1
     padding-bottom: 5%;
     font-size: 1.5em;
 }
-.symb1
+.symb1, .symb2
     {
         border-radius: 50%;
-        border: 0.5mm solid black;
+        border: 0.5mm solid black;  
+    }
+    .symb1
+    {
         padding: 20px 24px 16px 24px;
     }
 .symb2
     {
-        border-radius: 50%;
-        border: 0.5mm solid black;
         padding: 20px 20px 20px 20px;
     }   
 ul
 {
     color: #2962FF;
 }
-.noir
+.noir, .noir1
 {
     color: black;
 }
-.noir1
-{
-    color: black;
-}
+
 @media all and (max-width: 480px)
 {
     body 
