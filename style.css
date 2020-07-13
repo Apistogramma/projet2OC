@@ -175,7 +175,7 @@ h1
         border-radius: 50%;
         border: 0.5mm solid black;  
     }
-    .symb1
+.symb1
     {
         padding: 20px 24px 16px 24px;
     }
@@ -194,11 +194,10 @@ ul
 
 @media all and (max-width: 480px)
 {
-    body 
-    {display: flex;
-    flex-direction: column;
-    width: 100vw;
-    margin: 0;
+    body   
+    {
+        width: 100vw;
+    
     }
 
     
