@@ -16,6 +16,9 @@ main
     border-top: solid black 0.3mm;
     border-left: solid black 0.3mm;
     border-bottom: solid black 0.3mm ;
+    background-color: #2962FF;
+    display: flex;
+    flex-direction: column; 
 }
 .photo
 {
@@ -111,7 +114,7 @@ h1
 {
     width: 28%;;
 }
-.premier 
+.premier, .sanspoint
 {
     list-style-type:none;
 }
@@ -123,18 +126,13 @@ h1
 .recommandation
 {
     display: flex;
+    justify-content: space-around;
 }
 .recommandation div
 { 
     width: 50%;
+}
 
-}
-.prive
-{ 
-    background-color: #2962FF;
-    display: flex;
-    flex-direction: column;  
-}
 .prive h2
 {
     text-align: center;
@@ -142,13 +140,25 @@ h1
     color:#2962FF ;
     word-wrap: break-word;
 }
-.adresse
+.adresse1
+{
+    text-align: left;
+    word-wrap: break-word;
+    padding-left: 0;
+    font-weight: bold;
+    font-style:initial;
+}
+
+.adresse2
 {
     text-align: left;
     word-wrap: break-word;
     padding-left: 10%;
     padding-right: 10%;
     font-weight: bold;
+    font-style: initial;
+    
+    
 }
 .monmot
 {
@@ -163,7 +173,6 @@ h1
 .loisirs
 {   
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
@@ -187,16 +196,17 @@ ul
 {
     color: #2962FF;
 }
-.noir, .noir1
+.noir, .noir1, .telephone, .mail
 {
     color: black;
+    text-decoration: none;
+
 }
 @media all and (max-width: 1024px)
 
 {
     main
     {
-        display: flex;
         flex-direction: column;
     }
     .fonction
@@ -222,7 +232,10 @@ ul
         border: none;
         width:100%;
     }
-   
+    .noir1
+    {
+        padding:25px;
+    }
     .recommandation
     {
         display: flex;
@@ -257,13 +270,11 @@ ul
         margin-left: 0;
         list-style: inside;
     }
-    .noir1
-    {
-        padding: 5%;
-    }
+
     .loisirs
     {
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
