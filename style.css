@@ -200,8 +200,20 @@ ul
 {
     color: black;
     text-decoration: none;
+    
 
 }
+.telephone:hover
+{
+    color:red;
+    text-decoration :underline;
+}
+.mail:hover
+{
+    color:red;
+    text-decoration :underline;
+}
+
 @media all and (max-width: 1024px)
 
 {
