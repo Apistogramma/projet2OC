@@ -229,8 +229,12 @@ ul
     }
     h2 
     {
-        font-size:  1.8vmax;
-       
+        font-size:  1.8vmax; 
+    }
+    .agent
+    {
+    text-decoration: underline #2962ff ;
+    text-underline-position: none;
     }
     .professionnel 
     {
